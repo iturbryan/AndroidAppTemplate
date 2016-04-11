@@ -26,7 +26,7 @@ public class UserBean implements UserEJB {
         } catch (JSONException je) {
             params = null;
         }
-        return this.execute(Constants.URL_LOGIN, params).toString();
+        return this.execute(Constants.URL_CHANGE_PASSWORD, params).toString();
     }
 
     @Override
@@ -47,17 +47,17 @@ public class UserBean implements UserEJB {
 
     @Override
     public String create(User user) {
-        return null;
+        return this.execute(Constants.URL_CREATE_USER, this.toJson(user).toString()).toString();
     }
 
     @Override
     public String login(User user) {
-        return null;
+        return this.execute(Constants.URL_LOGIN, this.toJson(user).toString()).toString();
     }
 
     @Override
     public String logout(User user) {
-        return null;
+        return this.execute(Constants.URL_LOGOUT, this.toJson(user).toString()).toString();
     }
 
     private JSONObject execute(String link, String params)

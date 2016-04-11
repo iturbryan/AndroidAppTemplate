@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AppTemplate</string>
+
+    <!-- Hints Come Here -->
+    <string name="hint_name">Your Name</string>
+    <string name="hint_phone">Your Phone #</string>
+    <string name="hint_email">Your Email Address</string>
+    <string name="hint_password">Your Password</string>
+    <string name="hint_cpassword">Confirm Password</string>
+
+    <!-- Button Texts Come Here -->
+    <string name="btn_sign_up">Sign Up</string>
 </resources>

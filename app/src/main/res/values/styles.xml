@@ -8,4 +8,45 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="StandardWidget">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StandardEditText">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">15sp</item>
+    </style>
+
+    <style name="StandardCheckBox">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">6sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StandardTextView">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StandardTitleTextView">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
 </resources>
