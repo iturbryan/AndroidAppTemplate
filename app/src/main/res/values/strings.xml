@@ -10,4 +10,6 @@
 
     <!-- Button Texts Come Here -->
     <string name="btn_sign_up">Sign Up</string>
+    <!-- Other Texts come here -->
+    <string name="text_empty"></string>
 </resources>
